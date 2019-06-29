@@ -1,0 +1,19 @@
+name: Trash
+version: 1.0.0
+main: net.blumbye.trash.Trash
+api-version: 1.14
+authors: [BLumbye]
+description: Simple trash command
+website: www.blumbye.net
+
+permissions:
+  trash.use:
+    description: Permission for /trash
+    default: true
+
+commands:
+  trash:
+    description: Opens trash
+    usage: /<command>
+    permission: trash.use
+    permission-message: §cYou don't have permission to use this command!
